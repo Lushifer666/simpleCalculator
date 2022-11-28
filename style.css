@@ -50,10 +50,6 @@ table {
 /* custom css */
 body {
     background-color: #BEB2C8;
-	min-height: 650px;
-	height: 20em;
-	width: 100%;
-	margin: auto;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -70,6 +66,13 @@ max-height: 600px;
 display: flex;
 flex-direction: column;
 justify-content: center;
+
+position:absolute;
+right:0;
+left: 0;
+top: 0;
+bottom: 0;
+margin: auto;
 }
 
 #calculations {
@@ -110,4 +113,8 @@ justify-content: center;
 #clear {
 	border-radius: 8px;
 	width: 15.5rem;
+}
+
+@media screen {
+	
 }
