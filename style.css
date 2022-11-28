@@ -114,3 +114,12 @@ margin: auto;
 	border-radius: 8px;
 	width: 15.5rem;
 }
+
+.button:active, #equals:active{
+	margin: 2% 2.5%;
+	text-shadow: 0 0 0.5em #fffffc;
+	border: 0.01px solid #fffffc;
+	box-shadow: 0 0 0.9em 0 #fffffc;
+	background-color: #36413E;
+	color: #fffffc;
+}
