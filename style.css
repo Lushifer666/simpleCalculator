@@ -50,8 +50,10 @@ table {
 /* custom css */
 body {
     background-color: #BEB2C8;
-	height: 800px;
+	min-height: 650px;
+	height: 20em;
 	width: 100%;
+	margin: auto;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -59,20 +61,22 @@ body {
 
 .container {
 background-color: #36413E;
-height: 43vh;
+height: 27rem;
 width: 80%;
+padding: 0 1em;
 border-radius: 5%;
 max-width: 300px;
-max-height: 400px;
+max-height: 600px;
 display: flex;
 flex-direction: column;
+justify-content: center;
 }
 
 #calculations {
 	background-color: #8D8D92;
-	height: 50px;
+	height: 3rem;
 	width: 90%;
-	margin: 8% 4.6% 8% 4.8%;
+	margin: 5% 4.6% 5% 4.8%;
 	font-size: xx-large;
 	color: #D7D6D6;
 	display: flex;
@@ -80,7 +84,7 @@ flex-direction: column;
 	justify-content: end;
 }
 
-.rowOne, .rowTwo, .rowThree, .rowFour{
+.rowOne, .rowTwo, .rowThree, .rowFour, .rowFive{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
@@ -88,11 +92,11 @@ flex-direction: column;
 
 .button{
 	background-color: #D7D6D6;
-	height: 4vh;
-	width: 10%;
+	height: 2rem;
+	width: 2rem;
 	margin: 3%;
-	padding: 2%;
-	border-radius: 15%;
+	padding: .4em;
+	border-radius: 8px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -101,4 +105,9 @@ flex-direction: column;
 
 #equals {
 	background-color: #FFBD00;
+}
+
+#clear {
+	border-radius: 8px;
+	width: 15.5rem;
 }
