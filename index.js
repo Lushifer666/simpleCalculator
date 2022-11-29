@@ -9,7 +9,16 @@ buttons.map( button => {
                 display.innerText = '';
                 break;
             case '=':
-                display.innerText = eval(display.innerText);
+                try{
+                    if(display.innerText != ''){
+                        display.innerText = eval(display.innerText);
+                    } else {
+                        display.innerText = '';
+                    }
+                } catch {
+                    display.innerText = 'Error!!!';
+                }
+                
                 break;
             default:
             display.innerText += e.target.innerText;
